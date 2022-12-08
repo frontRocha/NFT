@@ -6,4 +6,4 @@
 
 ## Apresentação do projeto
 
-<img src="https://github.com/frontRocha/NFT/blob/master/assets/apresenta%C3%A7%C3%A3o.gif"/>
+<img width="500px" src="https://github.com/frontRocha/NFT/blob/master/assets/apresenta%C3%A7%C3%A3o.gif"/>
