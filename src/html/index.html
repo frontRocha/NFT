@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/fonts/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&family=Raleway:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="flex h-24 items-center bg-primary text-white px-10 fontRaleway font-bold">
+        <nav class="flex w-full">
+            <div class="flex nav-list w-full">
+                <ul class="ul flex gap-10 items-center top">
+                    <span class="text-3xl font-extrabold">Omise</span>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">How it work</a></li>
+                </ul>
+                <div class="flex gap-6 items-center bottom">
+                    <img class="w-4 h-4" src="/assets/search.png">
+                    <button class="border border-secondary py-3 px-4 rounded-3xl text-secondary">Connect wallet</button>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="flex items-center bg-primary h-[900px] min-h-screen fontRaleway px-10">
+            <div class="flex flex-col justify-between sm:flex-row sm:items-center w-[1200px] mx-auto">
+                <div class="ph:mb-8 flex flex-col gap-5 mr-5 ph:justify-start items-start">
+                    <h2 class="text-4xl whitespace-nowrap md:text-5xl lg:text-6xl text-white lineHeight">Discover
+                        <strong class="font-bold">Rare <br> Collection
+                            of <br> Digital Art</strong> and <strong class="font-bold"><br> NFT</strong>
+                    </h2>
+                    <p class="text-white text-xs md:text-sm lg:text-xl">Digital marketplace for crypto assets <br> and
+                        non fungible tokens (NFT)</p>
+                    <div class="flex items-center gap-2 sm:gap-4">
+                        <img class="w-[70px] md:w-[100px] lg:w-[150px]" src="/assets/designers.png" />
+                        <div class="text-white">
+                            <strong class="text-xs md:text-sm lg:text-xl">100+</strong>
+                            <p class="opacity-60 text-xs md:text-sm lg:text-xl">The best designers</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <p class="text-white sm:text-xl md:text-sm lg:text-xl">Discover latest Artworks</p>
+                        <img class="w-[15px] h-[15px] lg:w-[25px] lg:h-[25px]" src="/assets/arrow.png" />
+                    </div>
+                </div>
+                <div class="ph:flex ph:flex-col ph:justify-end ph:items-end ph:w-full ph:mr-6">
+                    <img class="h-[300px] ph:h-[250px] md:h-[400px] lg:h-[600px] mb-2" src="/assets/nft.png" />
+                    <div class="flex justify-evenly gap-6 sm:hidden relative text-white fontRaleway">
+                        <div class="mb-2">
+                            <strong class="font-bold md:text-xl lg:text-3xl font-sans">10.1k+</strong>
+                            <p class="font-bold text-sm opacity-60">Art Work</p>
+                        </div>
+                        <div class="mb-2">
+                            <strong class="font-bold md:text-xl lg:text-3xl font-sans">1.1M</strong>
+                            <p class="font-bold text-sm opacity-60">Artists</p>
+                        </div>
+                        <div class="mb-2">
+                            <strong class="font-bold md:text-xl lg:text-3xl font-sans">38k</strong>
+                            <p class="font-bold text-sm opacity-60">Sales</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-full hidden sm:block relative lg:top-[200px] text-white fontRaleway">
+                    <div class="mb-2">
+                        <strong class="font-bold md:text-xl lg:text-3xl font-sans">10.1k+</strong>
+                        <p class="font-bold text-sm opacity-60">Artists</p>
+                    </div>
+                    <div class="mb-2">
+                        <strong class="font-bold md:text-xl lg:text-3xl font-sans">1.1M</strong>
+                        <p class="font-bold text-sm opacity-60">Artists</p>
+                    </div>
+                    <div class="mb-2">
+                        <strong class="font-bold md:text-xl lg:text-3xl font-sans">38k</strong>
+                        <p class="font-bold text-sm opacity-60">Sales</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fontRaleway bg-primary h-auto min-h-[750px] pb-20 px-10">
+            <div class="max-w-[1200px] mx-auto text-white">
+                <h3 class="text-lg">Trending</h3>
+                <div class="flex justify-between w-full mb-12">
+                    <strong class="text-3xl">Auctions</strong>
+                    <div class="flex items-center gap-4">
+                        <p class="font-bold">View all</p>
+                        <img class="w-5" src='/assets/arrow.png' />
+                    </div>
+                </div>
+                <div class="flex flex-wrap items-center justify-center gap-10">
+                    <div
+                        class="w-[300px] lg:w-[370px] bg-[#1D1D1D] flex flex-col justify-between px-6 py-6 rounded-xl mt-2 mb-2">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex items-center gap-2">
+                                <img src="/assets/Ellipse 4.png" />
+                                <span class="text-xl font-bold">Mark Ross</span>
+                            </div>
+                            <img src="/assets/heart.png" />
+                        </div>
+                        <img class="mx-auto mb-4" src="/assets/Frame 5.png" />
+                        <div>
+                            <h4 class="font-bold text-xl">Silver Age Astronaut</h4>
+                            <p class="opacity-60">Edition 1 of 5</p>
+                        </div>
+                        <div class="flex items-center mt-4 justify-between">
+                            <div class="flex items-center gap-4">
+                                <img src="/assets/Group 12.png" />
+                                <div>
+                                    <p class="font-bold">Price</p>
+                                    <p class="font-bold">1.5 ETH</sp>
+                                </div>
+                            </div>
+                            <button class="py-4 px-6 lg:px-12 bg-secondary font-bold">Place a bid</button>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[300px] lg:w-[370px] bg-[#1D1D1D] flex flex-col justify-between px-6 py-6 rounded-xl mt-2 mb-2">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex items-center gap-2">
+                                <img src="/assets/Ellipse 4.png" />
+                                <span class="text-xl font-bold">Rose Edinburgh</span>
+                            </div>
+                            <img src="/assets/heart.png" />
+                        </div>
+                        <img class="mx-auto mb-4" src="/assets/Frame 5.1.png" />
+                        <div>
+                            <h4 class="font-bold text-xl">Mr Abstract</h4>
+                            <p class="opacity-60">Edition 1 of 3</p>
+                        </div>
+                        <div class="flex items-center mt-4 justify-between">
+                            <div class="flex items-center gap-4">
+                                <img src="/assets/Group 12.png" />
+                                <div>
+                                    <p class="font-bold">Price</p>
+                                    <p class="font-bold">2.11 ETH</sp>
+                                </div>
+                            </div>
+                            <button class="py-4 px-6 lg:px-12 bg-secondary font-bold">Place a bid</button>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[300px] lg:w-[370px] bg-[#1D1D1D] flex flex-col justify-between px-6 py-6 rounded-xl mt-2 mb-2">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex items-center gap-2">
+                                <img src="/assets/Ellipse 4.png" />
+                                <span class="text-xl font-bold">Eve Lillith</span>
+                            </div>
+                            <img src="/assets/heart.png" />
+                        </div>
+                        <img class="mx-auto mb-4" src="/assets/Frame 5.2.png" />
+                        <div>
+                            <h4 class="font-bold text-xl">Golden Cheetah</h4>
+                            <p class="opacity-60">Edition 1 of 5</p>
+                        </div>
+                        <div class="flex items-center mt-4 justify-between">
+                            <div class="flex items-center gap-4">
+                                <img src="/assets/Group 12.png" />
+                                <div>
+                                    <p class="font-bold">Price</p>
+                                    <p class="font-bold">1.0 ETH</sp>
+                                </div>
+                            </div>
+                            <button class="py-4 px-6 lg:px-12 bg-secondary font-bold">Place a bid</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fontRaleway bg-primary h-auto min-h-[800px]">
+            <div class="mx-auto text-white">
+                <div class="w-full mb-12 bg-[#242424] pt-20 pb-40">
+                    <div class="max-w-[1200px] mx-auto flex justify-between px-10">
+                        <strong class="text-3xl">Editor's Pick</strong>
+                        <div class="flex items-center gap-4">
+                            <p class="font-bold">View all</p>
+                            <img class="w-5" src='/assets/arrow.png' />
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap items-center justify-center gap-10 relative top-[-160px] px-10">
+                    <div class="w-[300px] lg:w-[370px] bg-[#1D1D1D] flex flex-col justify-between px-6 py-6 rounded-xl">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex items-center gap-2">
+                                <img src="/assets/Ellipse 4.png" />
+                                <span class="text-xl font-bold">Mark Ross</span>
+                            </div>
+                            <img src="/assets/heart.png" />
+                        </div>
+                        <img class="mx-auto mb-4" src="/assets/Frame 6.png" />
+                        <div>
+                            <h4 class="font-bold text-xl">Silver Age Astronaut</h4>
+                            <p class="opacity-60">Edition 1 of 5</p>
+                        </div>
+                        <div class="flex items-center mt-4 justify-between">
+                            <div class="flex items-center gap-4">
+                                <img src="/assets/Group 12.png" />
+                                <div>
+                                    <p class="font-bold">Price</p>
+                                    <p class="font-bold">1.5 ETH</sp>
+                                </div>
+                            </div>
+                            <button class="py-4 px-6 lg:px-12 bg-secondary font-bold">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="w-[300px] lg:w-[370px] bg-[#1D1D1D] flex flex-col justify-between px-6 py-6 rounded-xl">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex items-center gap-2">
+                                <img src="/assets/Ellipse 4.png" />
+                                <span class="text-xl font-bold">Rose Edinburgh</span>
+                            </div>
+                            <img src="/assets/heart.png" />
+                        </div>
+                        <img class="mx-auto mb-4" src="/assets/Frame 6-1.png" />
+                        <div>
+                            <h4 class="font-bold text-xl">Mr Abstract</h4>
+                            <p class="opacity-60">Edition 1 of 3</p>
+                        </div>
+                        <div class="flex items-center mt-4 justify-between">
+                            <div class="flex items-center gap-4">
+                                <img src="/assets/Group 12.png" />
+                                <div>
+                                    <p class="font-bold">Price</p>
+                                    <p class="font-bold">2.11 ETH</sp>
+                                </div>
+                            </div>
+                            <button class="py-4 px-6 lg:px-12 bg-secondary font-bold">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="w-[300px] lg:w-[370px] bg-[#1D1D1D] flex flex-col justify-between px-6 py-6 rounded-xl">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex items-center gap-2">
+                                <img src="/assets/Ellipse 4.png" />
+                                <span class="text-xl font-bold">Eve Lillith</span>
+                            </div>
+                            <img src="/assets/heart.png" />
+                        </div>
+                        <img class="mx-auto mb-4" src="/assets/Frame 6-2.png" />
+                        <div>
+                            <h4 class="font-bold text-xl">Golden Cheetah</h4>
+                            <p class="opacity-60">Edition 1 of 5</p>
+                        </div>
+                        <div class="flex items-center mt-4 justify-between">
+                            <div class="flex items-center gap-4">
+                                <img src="/assets/Group 12.png" />
+                                <div>
+                                    <p class="font-bold">Price</p>
+                                    <p class="font-bold">1.0 ETH</sp>
+                                </div>
+                            </div>
+                            <button class="py-4 px-6 lg:px-12 bg-secondary font-bold">Place a bid</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fontRaleway bg-primary h-auto min-h-[700px]">
+            <h3 class="text-white text-center text-3xl font-bold mb-24">Top Creators</h3>
+            <div
+                class="grid md:grid-cols-2 xl:grid-cols-3 place-items-center place-content-center text-white gap-5 mx-4">
+                <div
+                    class="flex justify-center items-center w-[300px] lg:w-[412px] h-[120px] rounded-2xl bg-[#1D1D1D] gap-4 px-4">
+                    <img class="w-[50px] lg:w-auto" src="/assets/Ellipse 5.png" />
+                    <div>
+                        <p class="mb-2 text-sm lg:text-base">Lydra</p>
+                        <div class="flex items-center gap-2">
+                            <img class="w-[14px] lg:w-auto" src="/assets/Group 12.png" />
+                            <span class="text-secondary font-bold text-xs lg:text-base">
+                                191.200 ETH
+                            </span>
+                        </div>
+                    </div>
+                    <button
+                        class="rounded-2xl py-2 px-4 lg:px-6 text-xs lg:text-base font-bold bg-secondary mb-10 ml-4">+
+                        Follow</button>
+                </div>
+                <div
+                    class="flex justify-center items-center w-[300px] lg:w-[412px] h-[120px] rounded-2xl bg-[#1D1D1D] gap-4 px-4">
+                    <img class="w-[50px] lg:w-auto" src="/assets/Ellipse 5-3.png" />
+                    <div>
+                        <p class="mb-2 text-sm lg:text-base">Clipguy21</p>
+                        <div class="flex items-center gap-2">
+                            <img class="w-[14px] lg:w-auto" src="/assets/Group 12.png" />
+                            <span class="text-secondary font-bold text-xs lg:text-base">
+                                191.200 ETH
+                            </span>
+                        </div>
+                    </div>
+                    <button
+                        class="rounded-2xl py-2 px-4 lg:px-6 text-xs lg:text-base font-bold bg-secondary mb-10 ml-4">+
+                        Follow</button>
+                </div>
+                <div
+                    class="flex justify-center items-center w-[300px] lg:w-[412px] h-[120px] rounded-2xl bg-[#1D1D1D] gap-4 px-4">
+                    <img class="w-[50px] lg:w-auto" src="/assets/Ellipse 5-6.png" />
+                    <div>
+                        <p class="mb-2 text-sm lg:text-base">Lydia</p>
+                        <div class="flex items-center gap-2">
+                            <img class="w-[14px] lg:w-auto" src="/assets/Group 12.png" />
+                            <span class="text-secondary font-bold text-xs lg:text-base">
+                                191.200 ETH
+                            </span>
+                        </div>
+                    </div>
+                    <button
+                        class="rounded-2xl py-2 px-4 lg:px-6 text-xs lg:text-base font-bold bg-secondary mb-10 ml-4">+
+                        Follow</button>
+                </div>
+                <div
+                    class="flex justify-center items-center w-[300px] lg:w-[412px] h-[120px] rounded-2xl bg-[#1D1D1D] gap-4 px-4">
+                    <img class="w-[50px] lg:w-auto" src="/assets/Ellipse 5-1.png" />
+                    <div>
+                        <p class="mb-2 text-sm lg:text-base">Alan</p>
+                        <div class="flex items-center gap-2">
+                            <img class="w-[14px] lg:w-auto" src="/assets/Group 12.png" />
+                            <span class="text-secondary font-bold text-xs lg:text-base">
+                                191.200 ETH
+                            </span>
+                        </div>
+                    </div>
+                    <button
+                        class="rounded-2xl py-2 px-4 lg:px-6 text-xs lg:text-base font-bold bg-secondary mb-10 ml-4">+
+                        Follow</button>
+                </div>
+                <div
+                    class="flex justify-center items-center w-[300px] lg:w-[412px] h-[120px] rounded-2xl bg-[#1D1D1D] gap-4 px-4">
+                    <img class="w-[50px] lg:w-auto" src="/assets/Ellipse 5-4.png" />
+                    <div>
+                        <p class="mb-2 text-sm lg:text-base">Alacantra</p>
+                        <div class="flex items-center gap-2">
+                            <img class="w-[14px] lg:w-auto" src="/assets/Group 12.png" />
+                            <span class="text-secondary font-bold text-xs lg:text-base">
+                                191.200 ETH
+                            </span>
+                        </div>
+                    </div>
+                    <button
+                        class="rounded-2xl py-2 px-4 lg:px-6 text-xs lg:text-base font-bold bg-secondary mb-10 ml-4">+
+                        Follow</button>
+                </div>
+                <div
+                    class="flex justify-center items-center w-[300px] lg:w-[412px] h-[120px] rounded-2xl bg-[#1D1D1D] gap-4 px-4">
+                    <img class="w-[50px] lg:w-auto" src="/assets/Ellipse 5-7.png" />
+                    <div>
+                        <p class="mb-2 text-sm lg:text-base">MistressQ</p>
+                        <div class="flex items-center gap-2">
+                            <img class="w-[14px] lg:w-auto" src="/assets/Group 12.png" />
+                            <span class="text-secondary font-bold text-xs lg:text-base">
+                                191.200 ETH
+                            </span>
+                        </div>
+                    </div>
+                    <button
+                        class="rounded-2xl py-2 px-4 lg:px-6 text-xs lg:text-base font-bold bg-secondary mb-10 ml-4">+
+                        Follow</button>
+                </div>
+                <div
+                    class="flex justify-center items-center w-[300px] lg:w-[412px] h-[120px] rounded-2xl bg-[#1D1D1D] gap-4 px-4">
+                    <img class="w-[50px] lg:w-auto" src="/assets/Ellipse 5-2.png" />
+                    <div>
+                        <p class="mb-2 text-sm lg:text-base">Daboss</p>
+                        <div class="flex items-center gap-2">
+                            <img class="w-[14px] lg:w-auto" src="/assets/Group 12.png" />
+                            <span class="text-secondary font-bold text-xs lg:text-base">
+                                191.200 ETH
+                            </span>
+                        </div>
+                    </div>
+                    <button
+                        class="rounded-2xl py-2 px-4 lg:px-6 text-xs lg:text-base font-bold bg-secondary mb-10 ml-4">+
+                        Follow</button>
+                </div>
+                <div
+                    class="flex justify-center items-center w-[300px] lg:w-[412px] h-[120px] rounded-2xl bg-[#1D1D1D] gap-4 px-4">
+                    <img class="w-[50px] lg:w-auto" src="/assets/Ellipse 5-5.png" />
+                    <div>
+                        <p class="mb-2 text-sm lg:text-base">Ellen87</p>
+                        <div class="flex items-center gap-2">
+                            <img class="w-[14px] lg:w-auto" src="/assets/Group 12.png" />
+                            <span class="text-secondary font-bold text-xs lg:text-base">
+                                191.200 ETH
+                            </span>
+                        </div>
+                    </div>
+                    <button
+                        class="rounded-2xl py-2 px-4 lg:px-6 text-xs lg:text-base font-bold bg-secondary mb-10 ml-4">+
+                        Follow</button>
+                </div>
+                <div
+                    class="flex justify-center items-center w-[300px] lg:w-[412px] h-[120px] rounded-2xl bg-[#1D1D1D] gap-4 px-4">
+                    <img class="w-[50px] lg:w-auto" src="/assets/Ellipse 5-8.png" />
+                    <div>
+                        <p class="mb-2 text-sm lg:text-base">Lonewalker</p>
+                        <div class="flex items-center gap-2">
+                            <img class="w-[14px] lg:w-auto" src="/assets/Group 12.png" />
+                            <span class="text-secondary font-bold text-xs lg:text-base">
+                                191.200 ETH
+                            </span>
+                        </div>
+                    </div>
+                    <button
+                        class="rounded-2xl py-2 px-4 lg:px-6 text-xs lg:text-base font-bold bg-secondary mb-10 ml-4">+
+                        Follow</button>
+                </div>
+            </div>
+            <button
+                class="flex items-center text-secondary border border-secondary rounded-3xl bg-primary mt-16 mx-auto py-4 px-8">View
+                ranking</button>
+        </section>
+        <section
+            class="h-auto min-h-[700px] bg-[url('/assets/community.png')] bg-50% md:bg-100% bg-no-repeat bg-center bg-primary flex flex-col justify-center items-center fontRaleway">
+            <div class="text-center">
+                <h3 class="text-4xl text-white">Join our</h3>
+                <span class="text-5xl font-bold text-secondary">community</span>
+            </div>
+            <p class="text-white text-sm md:text-xl text-center mt-20 mb-10 mx-10">Meet the Omise community,artists and
+                collectors for platform <br> update,announcements and more...</p>
+            <button class="flex gap-4 text-white py-5 px-6 bg-secondary rounded mt-10"><img src="/assets/discord.png" />
+                Launch Discord</button>
+        </section>
+    </main>
+    <footer class="bg-[#242424] fontRaleway">
+        <div class="grid grid-cols-1 md:grid-cols-3 text-white p-4 md:p-20">
+            <div class="md:col-span-1 pt-10 md:pt-0">
+                <a href="#">
+                    <h3 class="w-20 md:w-132px text-4xl font-bold">Omise</h3>
+                </a>
+            </div>
+            <div class="md:col-span-1 pt-10 md:pt-4">
+                <h3 class="tracking-widest mb-5 text-2xl font-bold">NFT Marketplace</h3>
+                <ul>
+                    <li class="mb-5">
+                        <a href="#">Explorer</a>
+                    </li>
+                    <li class="mb-5">
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li class="mb-5">
+                        <a href="#">About us</a>
+                    </li>
+                    <li class="mb-5">
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li class="mb-5">
+                        <a href="#">Contact us</a>
+                    </li>
+                    <li class="mb-5">
+                        <a href="#">Terms of service</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:col-span-1 pt-10 md:pt-4">
+                <h3 class="tracking-widest mb-5 text-2xl font-bold">Join Newsletter</h3>
+                <ul>
+                    <li className="mb-5">
+                        <a href="#">Para Artistas</a>
+                    </li>
+                    <li className="mb-5">
+                        <a href="#">Desenvolvedores</a>
+                    </li>
+                    <li className="mb-5">
+                        <a href="#">Publicidade</a>
+                    </li>
+                    <li className="mb-5">
+                        <a href="#">Investidores</a>
+                    </li>
+                    <li className="mb-5">
+                        <a href="#">Fornecedores</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex justify-between px-10">
+            <p class="text-gray-500 text-xs">Copyright @ 2022. All rights reserved</p>
+            <div>
+                <i class="fab fa-instagram w-12 h-12 text-white"></i>
+                <i class="fab fa-twitter w-12 h-12 text-white"></i>
+                <i class="fab fa-facebook-f w-12 h-12 text-white"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/src/javascript/mobile.js"></script>
+</body>
+
+</html>
